@@ -25,7 +25,7 @@ const Reactjs = () => {
                     desktop={recipeDesktop} 
                     tablet={recipeTablet} 
                     mobile={recipeMobile}
-                    quote={"this is my first website with react the website evolves on picture of foods you can search on anytype if food you like to know the face or picture of the food and de cloud recioe won`t waste a second displaying the result to you this is a based on styling project with react.js"}
+                    quote={"this is my first website with react the website evolves on picture of foods you can search on anytype if food you like to know the face or picture of the food and de cloud recipe won`t waste a second displaying the result to you this is a based on styling project with react.js"}
                   />
                   <ReactList 
                      liveLink={"https://movie-site-umber.vercel.app/"} 
