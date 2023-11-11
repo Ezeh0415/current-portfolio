@@ -1,0 +1,10 @@
+.project-nav {
+   margin: -20px 0 0 0;
+}
+
+.project-nav h1 {
+    text-align: center;
+    border-bottom: solid 1px;
+    margin-bottom: 5px ;
+    padding-bottom: 5px;
+}

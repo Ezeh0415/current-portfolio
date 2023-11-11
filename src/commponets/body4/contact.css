@@ -1,0 +1,140 @@
+.fourth-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.fourth-section-text {
+    background-color: var(--color-gold);
+    width: 450px;
+    text-transform: capitalize;
+    padding: 0 15px 0 15px;
+    border-radius: 5px;
+    animation: slide-out  4s ease;
+}
+
+.fourth-section-text h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.fourth-section-text h5 {
+    margin: 10px 0 10px 0;
+}
+
+.fourth-section-mails {
+    width: 488px;
+    border-radius: 5px;
+    text-align: center;
+    background-image: url("../image/img.jpg");
+    animation: slide-out1  4s ease;
+}
+
+.fourth-section-mail {
+    width: 488px;
+    border-radius: 5px;
+    text-align: center;
+    /* background-image: url("../image/img.jpg"); */
+    animation: slide-out1  4s ease;
+}
+
+.fourth-section-mail i {
+    font-size: 200px;
+}
+
+.fourth-section-mail p {
+    margin-top: -50px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.fourth-section-mail a {
+    text-decoration: none;
+    color: var(--color-gold);
+}
+
+.fourth-section-mails h1,h4,p {
+    display: none;
+}
+
+
+@media screen and (min-width:280px) and (max-width:980px) {
+    
+    .fourth-section-mails h1,h4,p {
+        display: block;
+    }
+    
+    .fourth-section-text {
+        background-color: var(--color-gold);
+        width: 100%;
+        text-transform: capitalize;
+        padding: 0 15px 0 15px;
+        border-radius: 5px;
+        animation: slide-out  4s ease;
+    }
+
+    .fourth-section-mails {
+        width: 100%;
+        border-radius: 5px;
+        text-align: center;
+        background-image: url("../image/img.jpg");
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        animation: slide-out1  4s ease;
+    }
+
+    .fourth-section-mails h1 {
+        color: var(--color-gold);
+    }
+
+    .fourth-section-mail {
+        width: 100%;
+        border-radius: 5px;
+        text-align: center;
+        animation: slide-out1  4s ease;
+    }
+
+    .fourth-section-mail h4 {
+        font-size: 150px;
+        margin:0 0 20px 0;
+    }
+
+    .fourth-section-mail p {
+        font-size: 30px;
+        color: var(--color-gold);
+    }
+
+
+}
+
+@media screen and (min-width:280px) and (max-width:480px)  {
+    .fourth-section-text h1 {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: large;
+    }
+
+    .fourth-section-text h3 {
+       font-size: medium;
+    }
+
+    .fourth-section-text h5 {
+        margin: 10px 0 10px 0;
+        font-size: x-small;
+    }
+
+    .fourth-section-mail i {
+        font-size: 120px;
+    }
+
+    .fourth-section-mail h4 {
+        font-size: 120px;
+    }
+
+    .fourth-section-mail p {
+        margin-top: -30px;
+        font-size: 18px;
+        text-transform: capitalize;
+    }
+}

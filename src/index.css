@@ -1,0 +1,8 @@
+:root{
+    --color-gold:gold;
+    --color-white:#fff;
+    --color-dark:#040406;
+  
+    --background:var(--color-light);
+    --foreground:var(--color-dark);
+  }

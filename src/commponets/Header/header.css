@@ -1,0 +1,26 @@
+.header-section {
+ padding: 2px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 15px;
+}
+
+.header-section ul  {
+    width: 95%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-section ul li a {
+    text-decoration: none;
+    color: var(--color-dark);
+}
+
+.active {
+    border-bottom: solid 4px var(--color-gold);
+    padding: 5px ;
+    transition: 1s;
+}

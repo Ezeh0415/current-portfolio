@@ -1,0 +1,75 @@
+.main-react-div {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.react-page h2 {
+    text-align: center;
+}
+
+.react-card {
+    width: 300px;
+    padding: 5px;
+    margin: 22px 0 20px 0 ;
+}
+
+.react-card img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px ;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    border-bottom: dotted 3px;
+}
+
+.react-card span blockquote{
+    text-transform: capitalize;
+}
+
+.react-link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    border-top: dotted 2px;
+    padding-top: 10px;
+}
+
+.react-link a {
+    text-decoration: none;
+    color: var(--color-dark);
+}
+
+.react-page-link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px 0 20px 0;
+}
+
+.react-page-link a {
+    text-decoration: none;
+    color: var(--color-dark);
+}
+
+@media screen and (min-width:280px) and (max-width:980px) {
+    .main-react-div {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        place-items: center;
+        width: 100%;
+    }
+
+    .react-card {
+        /* width: 55%; */
+        padding: 5px;
+        margin: 22px 0 20px 0 ;
+        border: solid 1px ;
+    }
+
+    .react-card img {
+        width: 100%;
+        border-radius: 5px ;
+        margin-bottom: 10px;
+    }
+}

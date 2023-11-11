@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: capitalize;
+    margin: 15px 0 17px 0;
+    padding: 12px;
+    background-image: url("../image/img.jpg");
+    color: var(--color-gold);
+    animation: slide-out  5s ease;
+}
+
+.footer a {
+    font-size: 30px;
+    color: var(--color-gold);
+}
+
+.footer h2 {
+    font-size: 18px;
+}
+
+@media screen and (min-width:280px) and (max-width:480px) {
+    .footer h2 {
+        font-size: 15px;
+    }
+    
+    .footer h2 {
+        font-size: 10px;
+    }
+}

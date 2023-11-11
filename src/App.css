@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  margin: 5px;
+  padding: 5px;
+}
+
+
+/* animation section  */
+
+@keyframes slide-out {
+  from {
+    margin-top: 500px;
+  }
+  to {
+      margin-top: 0;
+  }
+} 
+
+@keyframes slide-out1 {
+  from {
+    margin-top: 500px;
+  }
+  to {
+      margin-top: 0;
+  }
+} 
